@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "901678716880",
+    "project_id": "shopido-b4134",
+    "storage_bucket": "shopido-b4134.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901678716880:android:f522c13dba3e50b7244bd5",
+        "android_client_info": {
+          "package_name": "android.example.shopido"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901678716880-ufj66t3u7snvp1up1f3fcnfd9k6qnfb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.shopido",
+            "certificate_hash": "4cced577b4eea025a62fabf4403a830bf3de7cf8"
+          }
+        },
+        {
+          "client_id": "901678716880-q0dts5mdmf9o80nhhcs8ibqo7cdoofr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxuKE3JrElNDEPtSLeviR2IsTIEvkjeRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901678716880-q0dts5mdmf9o80nhhcs8ibqo7cdoofr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

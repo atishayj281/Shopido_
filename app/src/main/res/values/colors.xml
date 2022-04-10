@@ -11,4 +11,12 @@
     <color name="mischka">#e7e2e8</color>
     <color name="castkill_white">#eff3f7</color>
     <color name="rum">#7b6e8b</color>
+    <color name="cod_black">#0d0d0d</color>
+    <color name="dodger_blue">#51a0fd</color>
+    <color name="can_can">#d58fb1</color>
+    <color name="cerulean_blue">#2b44bd</color>
+    <color name="anzac">#e4a145</color>
+    <color name="voila">#be6fa6</color>
+    <color name="voila_light">#d295b8</color>
+    <color name="shady_lady">#9e9d9e</color>
 </resources>
