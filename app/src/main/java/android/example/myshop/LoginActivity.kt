@@ -161,6 +161,9 @@ class LoginActivity : AppCompatActivity() {
             signUpWithGoogle()
         }
 
+        sign_in_google.setOnClickListener {
+            signUpWithGoogle()
+        }
     }
 
     private fun signUpWithGoogle() {
