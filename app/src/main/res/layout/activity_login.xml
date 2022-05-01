@@ -101,12 +101,14 @@
 
         </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
+
+
     <include
         layout="@layout/sign_in_ui"
         android:layout_gravity="bottom"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:visibility="gone"/>
+        android:visibility="gone"
+        android:layout_width="match_parent"/>
 
     <include
         layout="@layout/sign_up_ui"
@@ -115,5 +117,11 @@
         android:layout_width="match_parent"
         android:visibility="gone"/>
 
+    <include layout="@layout/progress_bar_activity"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/progress_bar"
+        android:visibility="gone"
+        />
 
 </FrameLayout>

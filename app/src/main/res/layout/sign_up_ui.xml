@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sign_up_ui"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:cardElevation="4dp"
-    android:id="@+id/sign_up_ui"
-    app:cardBackgroundColor="@color/castkill_white">
+    app:cardBackgroundColor="@color/castkill_white"
+    app:cardElevation="4dp">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,10 +19,10 @@
 
 
             <ImageView
+                android:id="@+id/sign_up_ui_back_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_left_arrow"
-                android:id="@+id/sign_up_ui_back_btn"/>
+                android:src="@drawable/ic_left_arrow" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -57,20 +56,19 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:hint="Name*"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
                 app:boxCornerRadiusBottomEnd="16dp"
                 app:boxCornerRadiusBottomStart="16dp"
                 app:boxCornerRadiusTopEnd="16dp"
                 app:boxCornerRadiusTopStart="16dp"
                 app:boxStrokeColor="@color/rum"
-                app:hintTextColor="@color/rum"
-                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
-                >
+                app:hintTextColor="@color/rum">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/full_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/rum"/>
+                    android:textColor="@color/rum" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -81,22 +79,21 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
+                android:autofillHints="emailAddress"
                 android:hint="Email*"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
                 app:boxCornerRadiusBottomEnd="16dp"
                 app:boxCornerRadiusBottomStart="16dp"
                 app:boxCornerRadiusTopEnd="16dp"
                 app:boxCornerRadiusTopStart="16dp"
                 app:boxStrokeColor="@color/rum"
-                app:hintTextColor="@color/rum"
-                android:autofillHints="emailAddress"
-                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
-                >
+                app:hintTextColor="@color/rum">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/rum"/>
+                    android:textColor="@color/rum" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -105,17 +102,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
+                android:autofillHints="password"
                 android:hint="Password"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
                 app:boxCornerRadiusBottomEnd="16dp"
                 app:boxCornerRadiusBottomStart="16dp"
                 app:boxCornerRadiusTopEnd="16dp"
                 app:boxCornerRadiusTopStart="16dp"
                 app:boxStrokeColor="@color/rum"
                 app:endIconMode="password_toggle"
-                app:hintTextColor="@color/rum"
-                android:autofillHints="password"
-                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
-                >
+                app:hintTextColor="@color/rum">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/password"
@@ -123,19 +119,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
-                    android:textColor="@color/rum"
-                    />
+                    android:textColor="@color/rum" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
 
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/sign_up_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardBackgroundColor="@color/royal_blue"
-                app:cardElevation="3dp"
-                android:id="@+id/sign_up_btn"
-                app:cardCornerRadius="10dp">
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp">
 
 
                 <TextView
@@ -160,19 +155,19 @@
                 <View
                     android:layout_width="0dp"
                     android:layout_height="1dp"
-                    android:background="@color/rum"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:background="@color/rum" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" OR "/>
+                    android:text=" OR " />
 
                 <View
                     android:layout_width="0dp"
                     android:layout_height="1dp"
-                    android:background="@color/rum"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:background="@color/rum" />
 
             </LinearLayout>
 
@@ -185,70 +180,83 @@
                 <Space
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1" />
 
                 <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/sign_up_google"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:cardElevation="3dp"
-                    app:cardCornerRadius="7dp"
-                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:id="@+id/sign_up_google">
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="3dp">
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/ic_google"/>
+                        android:src="@drawable/ic_google" />
 
                 </com.google.android.material.card.MaterialCardView>
 
                 <Space
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1" />
+
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.facebook.login.widget.LoginButton
+                        android:id="@+id/facebook_signup_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/sign_up_facebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="7dp"
+                        app:cardElevation="3dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_facebook" />
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </FrameLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
 
                 <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/sign_up_twitter"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:cardElevation="3dp"
-                    app:cardCornerRadius="7dp"
-                    android:layout_marginBottom="10dp"
                     android:layout_marginTop="10dp"
-                    android:id="@+id/sign_up_facebook">
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="3dp">
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/ic_facebook"/>
+                        android:src="@drawable/ic_twitter" />
 
                 </com.google.android.material.card.MaterialCardView>
 
                 <Space
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"/>
-
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:cardElevation="3dp"
-                    app:cardCornerRadius="7dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginTop="10dp"
-                    android:id="@+id/sign_up_twitter">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_twitter"/>
-
-                </com.google.android.material.card.MaterialCardView>
-
-                <Space
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1" />
             </LinearLayout>
         </LinearLayout>
 

@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MyShop/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/MyShop/app/src/main/res/layout/activity_login.xml" value="0.21" />
+        <entry key="..\:/MyShop/app/src/main/res/layout/progress_bar_activity.xml" value="0.33589743589743587" />
         <entry key="..\:/MyShop/app/src/main/res/layout/sign_in_ui.xml" value="0.25" />
         <entry key="..\:/MyShop/app/src/main/res/layout/sign_up_ui.xml" value="0.25" />
       </map>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyShop</string>
+
+    <string name="facebook_app_id">953575595349364</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">5f212ac956a5f68497913327a6dcd66b</string>
+
 </resources>
